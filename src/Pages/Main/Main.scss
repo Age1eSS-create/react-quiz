@@ -1,0 +1,20 @@
+.Main_content {
+    height: 100%;
+}
+
+:root[data-theme="light"] {
+    --background-color: #ffffff;
+    --text-color: #333333;
+    --main-color: #06b9fe;
+  }
+  
+  :root[data-theme="dark"] {
+    --background-color: #18191a;
+    --text-color: #f5f6f7;
+    --main-color: #06b9fe;
+  }
+  
+  body {
+    background: var(--background-color);
+    color: var(--text-color);
+  }

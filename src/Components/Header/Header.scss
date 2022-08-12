@@ -1,0 +1,45 @@
+.Header {
+    padding-top: 70px;
+    &__container {
+        display: flex;
+        align-items: center;
+        .menu-header {
+            display: flex;
+            list-style-type: none;
+            flex: 1 1 auto;
+            margin-left: 398px;
+            &__item {
+                font-size: 24px;
+                line-height: 30px;
+                a {
+                    color: #E0E0E0;
+                    text-decoration: none;
+                }
+                &:not(:last-child) {
+                    margin-right: 50px;
+                }
+            }
+        }
+        .profile-header {
+            flex: 0 1 auto;
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 30px;
+            color: #06FE8E;
+            &__name {
+                margin-right: 10px;
+            }
+            &__image {
+                width: 35px;
+                height: 35px;
+                border-radius: 100%;
+                background-color: #06FE8E;
+            }
+            margin-right: 25px;
+        }
+    }
+}
+
+

@@ -1,0 +1,17 @@
+html , body , #root {
+  height: 100%;
+}
+
+div[class$="__container"] {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+  height: 100%;
+  overflow: hidden;
+}
